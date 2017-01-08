@@ -1,0 +1,14 @@
+.banners {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 240px;
+}
+
+.item {
+    display: block;
+
+    width: 100%;
+}

@@ -1,0 +1,83 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+
+    width: 100%;
+    height: 1.600000rem;
+
+    border-top: 1px solid #d9d9d9; /*no*/
+    background-color: #fff;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    font-size: 24px; /*px*/
+
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #808080;
+
+    flex: 1;
+}
+
+.active {
+    color: #01bb9a;
+}
+
+.projects,
+.annc,
+.share,
+.account {
+    composes: item;
+}
+
+.icon {
+    display: block;
+
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: .133333rem;
+
+    background: #fff no-repeat center center;
+    background-size: contain;
+}
+
+.projects .icon {
+    background-image: url('./img/plan.png');
+}
+
+.projects.active .icon {
+    background-image: url('./img/plan-active.png');
+}
+
+.annc .icon {
+    background-image: url('./img/annc.png');
+}
+
+.annc.active .icon {
+    background-image: url('./img/annc-active.png');
+}
+
+.share .icon {
+    background-image: url('./img/share.png');
+}
+
+.share.active .icon {
+    background-image: url('./img/share-active.png');
+}
+
+.account .icon {
+    background-image: url('./img/account.png');
+}
+
+.account.active .icon {
+    background-image: url('./img/account-active.png');
+}

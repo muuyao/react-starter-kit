@@ -1,0 +1,25 @@
+.container {
+    color: #fff;
+}
+
+.page {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.page1 {
+    background: linear-gradient(135deg, #ffc71c, #ff8400);
+}
+.page2 {
+    background: linear-gradient(135deg, #00e59c, #00b0e3);
+}
+
+.page3 {
+    background: linear-gradient(135deg, #11caff, #7930ff);
+}
+
+.page4 {
+    background: linear-gradient(135deg, #ff5e2d, #be006b);
+}

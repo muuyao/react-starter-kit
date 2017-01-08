@@ -1,0 +1,15 @@
+.bgc {
+    background-color: rgba(0,0,0,.1) !important;
+}
+
+.bgc-white {
+    background-color: rgba(255,255,255,.2) !important;
+}
+
+.shadow {
+    box-shadow: inset 0 0 0 999px rgba(0,0,0,.1) !important; /*no*/
+}
+
+.opacity {
+    opacity: .8 !important;
+}

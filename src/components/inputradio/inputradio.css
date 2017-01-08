@@ -1,0 +1,55 @@
+.item {
+    font-size: 30px; /*px*/
+    line-height: 100px;
+
+    position: relative;
+
+    display: flex;
+
+    box-sizing: border-box;
+    height: 100px;
+    margin-top: -1px;/*no*/
+    padding-left: 15px;
+
+    border-top: 1px solid #d9d9d9;/*no*/
+    border-bottom: 1px solid #d9d9d9;/*no*/
+    background-color: #fff;
+}
+
+.label {
+    line-height: 100px;
+
+    display: block;
+
+    text-align: left;
+
+    color: #333;
+
+    flex: 1;
+}
+
+.radio {
+    font-size: 30px; /*px*/
+
+    margin-right: 15px;
+    padding: 3px 10px;
+
+    color: #999;
+    border: 1px solid #999;/*no*/
+    border-radius: 10px;
+}
+
+.radio:last-child {
+    margin-right: 0;
+}
+
+.checked {
+    color: #fff;
+    background-color: #01bb9a;
+}
+
+.radio input {
+    display: none;
+
+    appearance: none;
+}

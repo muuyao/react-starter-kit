@@ -1,0 +1,27 @@
+.empty {
+    padding-top: 200px;
+
+    text-align: center;
+
+    composes: white-space from 'assets/styles/base.css';
+}
+
+.empty h1 {
+    font-size: 80px; /*px*/
+
+    margin-bottom: 30px;
+
+    color: red;
+}
+
+.empty p {
+    font-size: 30px;/*px*/
+
+    text-align: center;
+}
+
+.btn {
+    margin-top: 100px;
+
+    composes: btn-block from 'assets/styles/button.css';
+}

@@ -1,0 +1,57 @@
+.slider {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+}
+
+.slides {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+
+    transition: all .4s;
+}
+
+.item {
+    float: left;
+}
+
+.item a {
+    display: block;
+
+    width: 100%;
+}
+
+.item img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+}
+
+.pager {
+    position: absolute;
+    bottom: .266667rem;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+.dot {
+    display: inline-block;
+
+    width: .213333rem;
+    height: .213333rem;
+    margin: 0 .066667rem;
+
+    border: 1px solid #999; /*no*/
+    border-radius: 50%;
+}
+
+.dot-active {
+    background-color: #aaa;
+}
